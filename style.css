@@ -1,1 +1,120 @@
+/* Body: dark grey background, plain font */
+body {
+    margin: 0;
+    background-color: #232a30;
+    color: #cfe0ee;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
 
+/* Headings */
+h1, h2, h3 {
+    color: #eaf2fa;
+}
+
+/* Nav bar */
+header {
+    background-color: #1b2126;
+    padding: 16px 28px;
+}
+
+/* Text and spacing of NAV buttons */
+nav a {
+    color: #cfe0ee;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+/* Nav Bar hovering visual change */
+nav a:hover {
+    color: #6ea8dc;
+}
+
+/* Home section (top) */
+#home {
+    padding: 40px 28px;
+    margin: 20px;
+    border-left: 3px solid #6ea8dc;
+}
+
+/* Blue button */
+.btn {
+    display: inline-block;
+    margin-top: 16px;
+    background-color: #6ea8dc;
+    color: #1b2126;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Highlight a feature card when clicked */
+.selected {
+    background-color: #1b2126;
+    border-color: #eaf2fa;
+}
+
+/* Features section */
+#features {
+    padding: 20px 28px;
+}
+
+/* Flex row of cards to fit without overlap */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
+/* Cards for sections being blue outlines and spaced */
+.card {
+    border: 1px solid #6ea8dc;
+    padding: 20px;
+    flex: 1;
+    min-width: 200px;
+}
+/* H3 Card for the different sections to be containerized */
+.card h3 {
+    color: #6ea8dc;
+}
+
+/* Contact section */
+#contact {
+    padding: 20px 28px;
+    margin: 20px;
+    border-left: 3px solid #6ea8dc;
+}
+
+/* Text Entry box */
+#contact input {
+    padding: 11px;
+    border: 1px solid #6ea8dc;
+    background-color: #1b2126;
+    color: #cfe0ee;
+    margin-right: 8px;
+}
+
+/* Contact Button for email */
+#contact button {
+    padding: 11px 20px;
+    border: none;
+    background-color: #6ea8dc;
+    color: #1b2126;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Footer */
+#footer {
+    background-color: #1b2126;
+    text-align: center;
+    padding: 20px;
+    color: #7f93a4;
+}
+
+/* Flexbot for the cards fitting when changing window size */
+@media (max-width: 600px) {
+    .cards {
+        flex-direction: column;
+    }
+}

@@ -4,14 +4,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Site Name</title>
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 <!-- Nav Bar for landing page-->
   <header>
     <nav>
       <a href="#home">Blueprint</a>
-      <a href="#about">About</a>
+      <a href="#features">Features</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
@@ -27,26 +27,28 @@
 <!-- Section 2 what are the actual planned features feasible and helpful -->
     <section id="features">
   <h2>What it does</h2>
-  <article>
-    <img src="Images\Applications.jpg" alt="Members icon" width="60" />
-    <h3>Member roster</h3>
-    <p>One accurate list of who's in your club. Members join in a tap and land on the roster automatically — no more guessing from a group chat.</p>
-  </article>
-  <article>
-    <img src="Images\Calendar.png" alt="Events icon" width="60" />
-    <h3>Events RSVPs</h3>
-    <p>Helps with planning either meetings or events. Say a dinner for a team is being held and you need to know how many allocations for the reservation or how much money is going to be used to buy the food at the event an RSVP event post can help save money and the hassle/</p>
-  </article>
-  <article>
-    <img src="Images\announcements.png" alt="Announcements icon" width="60" />
-    <h3>Announcements</h3>
-    <p>The notifications can be used for announcements say actually announcing a company party or used to say a event is cancelled from weather or unforseen circumstance without contacting everyone one by one. This leads a papertrail of planning and helps avoid complications when it comes to etiquette for event plans. </p>
-  </article>
-  <article>
-    <img src="Images\Directory.png" alt="Directory icon" width="60" />
-    <h3>Club directory (The big Idea)</h3>
-    <p>College can be daunting especially for freshmen and things like joining a club can be intimidating to people new to thew college life opr people with social anxieties having a browse groups page could serve as a digital 24/7 club directory / involvement fair helping you know what clubs there are and what being in the club entails without the obligation of joining because of the social interations you had at the table for the club.</p>
-  </article>
+  <div class="cards">
+    <article class="card">
+      <img src="Images\Applications-Icon.png" alt="Member roster icon" width="60" />
+      <h3>Member roster</h3>
+      <p>One accurate list of who's in your team. Members join in a tap and land on the roster automatically — no more guessing from a group chat.</p>
+    </article>
+    <article class="card">
+      <img src="Images\Calendar.png" alt="Events and RSVP icon" width="60" />
+      <h3>Events RSVPs</h3>
+      <p>Plan meetings and events with a headcount. Know how many seats to reserve or how much food to buy before the day comes.</p>
+    </article>
+    <article class="card">
+      <img src="Images\announcements.png" alt="Announcements icon" width="60" />
+      <h3>Announcements</h3>
+      <p>Announce a party or call off an event for weather — without messaging everyone one by one. It leaves a paper trail too.</p>
+    </article>
+    <article class="card">
+      <img src="Images\Directory-Icon.png" alt="Club directory icon" width="60" />
+      <h3>Club directory</h3>
+      <p>A 24/7 digital involvement fair — browse what clubs exist and what they're about, with no pressure to join on the spot.</p>
+    </article>
+  </div>
 </section>
 
 <!-- Section 3 signup area like most landing pages to be updating as things progress. -->
@@ -61,9 +63,9 @@
   </main>
 
   <footer>
-    <p>Blueprint — a student project by Ronan Christie</p>
+    <p>Blueprint — a student project by Ronan Christie at Centenary University.</p>
   </footer>
 
-  <script src="js/script.js"></script>
+  <script src="JS\jsscript.js"></script>
 </body>
 </html>
